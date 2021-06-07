@@ -30,7 +30,7 @@ public class ex09 {
         gal = gal + 1;
 
         //output
-
+        System.out.println("You will need to purchase "+gal+" gallons of paint to cover "+area+" square feet.");
     }
     //main method end
 }
