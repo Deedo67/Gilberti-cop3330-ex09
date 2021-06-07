@@ -15,17 +15,21 @@ public class ex09 {
         Scanner in = new Scanner(System.in);
 
         //inputs
-        System.out.print("How many people? ");
+        System.out.print("What is the length of the room? ");
         String strlen = in.nextLine();
-        System.out.print("How many pizzas do you have? ");
+        System.out.print("What is the width of the room? ");
         String strwid = in.nextLine();
-        System.out.print("How many slices per pizza? ");
-        String strgal = in.nextLine();
 
         //String conversion
         int len =Integer.parseInt(strlen);
         int wid =Integer.parseInt(strwid);
-        int gal =Integer.parseInt(strgal);
+
+        //math
+        int area = len * wid;
+        int gal = area / 350;
+        gal = gal + 1;
+
+        //output
 
     }
     //main method end
